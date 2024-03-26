@@ -1,3 +1,12 @@
+## 2024.3.26
+- 有单元测试。
+- 虽然是对SSD加速，但是没有依赖SSD。
+- ubuntu上轻松编译成功。
+## 生成测试二进制文件
+```sh
+cmake -DCMAKE_BUILD_TYPE=Release -DTL_BUILD_TESTS=ON .. && make -j
+```
+
 ![](https://github.com/mitdbg/learnedlsm/actions/workflows/ci.yml/badge.svg)
 
 # TreeLine
